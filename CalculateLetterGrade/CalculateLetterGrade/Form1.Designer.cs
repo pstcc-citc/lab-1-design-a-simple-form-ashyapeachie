@@ -30,7 +30,7 @@
         {
             label1 = new Label();
             label2 = new Label();
-            textBox1 = new TextBox();
+            txtNumberGrade = new TextBox();
             textBox2 = new TextBox();
             button1 = new Button();
             button2 = new Button();
@@ -57,12 +57,12 @@
             label2.Text = "Letter grade:";
             label2.TextAlign = ContentAlignment.MiddleLeft;
             // 
-            // textBox1
+            // txtNumberGrade
             // 
-            textBox1.Location = new Point(194, 79);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(130, 23);
-            textBox1.TabIndex = 2;
+            txtNumberGrade.Location = new Point(194, 79);
+            txtNumberGrade.Name = "txtNumberGrade";
+            txtNumberGrade.Size = new Size(130, 23);
+            txtNumberGrade.TabIndex = 1;
             // 
             // textBox2
             // 
@@ -100,7 +100,7 @@
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(txtNumberGrade);
             Controls.Add(label2);
             Controls.Add(label1);
             Name = "Form1";
@@ -114,7 +114,7 @@
 
         private Label label1;
         private Label label2;
-        private TextBox textBox1;
+        private TextBox txtNumberGrade;
         private TextBox textBox2;
         private Button button1;
         private Button button2;
