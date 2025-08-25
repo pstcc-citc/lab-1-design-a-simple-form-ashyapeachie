@@ -52,9 +52,10 @@
             label2.AutoSize = true;
             label2.Location = new Point(72, 134);
             label2.Name = "label2";
-            label2.Size = new Size(38, 15);
+            label2.Size = new Size(73, 15);
             label2.TabIndex = 1;
-            label2.Text = "label2";
+            label2.Text = "Letter grade:";
+            label2.TextAlign = ContentAlignment.MiddleLeft;
             // 
             // textBox1
             // 
