@@ -31,7 +31,7 @@
             label1 = new Label();
             label2 = new Label();
             txtNumberGrade = new TextBox();
-            textBox2 = new TextBox();
+            txtLetterGrade = new TextBox();
             button1 = new Button();
             button2 = new Button();
             SuspendLayout();
@@ -64,12 +64,14 @@
             txtNumberGrade.Size = new Size(130, 23);
             txtNumberGrade.TabIndex = 1;
             // 
-            // textBox2
+            // txtLetterGrade
             // 
-            textBox2.Location = new Point(194, 126);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(130, 23);
-            textBox2.TabIndex = 3;
+            txtLetterGrade.Location = new Point(194, 126);
+            txtLetterGrade.Name = "txtLetterGrade";
+            txtLetterGrade.ReadOnly = true;
+            txtLetterGrade.Size = new Size(130, 23);
+            txtLetterGrade.TabIndex = 3;
+            txtLetterGrade.TabStop = false;
             // 
             // button1
             // 
@@ -99,7 +101,7 @@
             ClientSize = new Size(450, 336);
             Controls.Add(button2);
             Controls.Add(button1);
-            Controls.Add(textBox2);
+            Controls.Add(txtLetterGrade);
             Controls.Add(txtNumberGrade);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -115,7 +117,7 @@
         private Label label1;
         private Label label2;
         private TextBox txtNumberGrade;
-        private TextBox textBox2;
+        private TextBox txtLetterGrade;
         private Button button1;
         private Button button2;
     }
