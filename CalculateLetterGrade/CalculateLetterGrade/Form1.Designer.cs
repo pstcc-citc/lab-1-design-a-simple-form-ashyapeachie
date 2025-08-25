@@ -49,7 +49,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(88, 223);
+            label2.Location = new Point(72, 134);
             label2.Name = "label2";
             label2.Size = new Size(38, 15);
             label2.TabIndex = 1;
@@ -57,35 +57,36 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(159, 180);
+            textBox1.Location = new Point(141, 71);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(130, 23);
             textBox1.TabIndex = 2;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(159, 219);
+            textBox2.Location = new Point(141, 126);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(126, 23);
+            textBox2.Size = new Size(130, 23);
             textBox2.TabIndex = 3;
             // 
             // button1
             // 
-            button1.Location = new Point(61, 265);
+            button1.Location = new Point(72, 187);
             button1.Name = "button1";
-            button1.Size = new Size(121, 34);
+            button1.Size = new Size(84, 25);
             button1.TabIndex = 4;
             button1.Text = "button1";
             button1.UseVisualStyleBackColor = true;
             // 
             // button2
             // 
-            button2.Location = new Point(236, 263);
+            button2.Location = new Point(194, 187);
             button2.Name = "button2";
-            button2.Size = new Size(96, 40);
+            button2.Size = new Size(77, 25);
             button2.TabIndex = 5;
             button2.Text = "button2";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // Form1
             // 
