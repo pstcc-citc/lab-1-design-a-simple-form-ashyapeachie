@@ -32,8 +32,8 @@
             label2 = new Label();
             txtNumberGrade = new TextBox();
             txtLetterGrade = new TextBox();
-            button1 = new Button();
-            button2 = new Button();
+            btnCalculate = new Button();
+            btnExit = new Button();
             SuspendLayout();
             // 
             // label1
@@ -73,34 +73,34 @@
             txtLetterGrade.TabIndex = 3;
             txtLetterGrade.TabStop = false;
             // 
-            // button1
+            // btnCalculate
             // 
-            button1.Location = new Point(72, 187);
-            button1.Name = "button1";
-            button1.Size = new Size(98, 25);
-            button1.TabIndex = 4;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
+            btnCalculate.Location = new Point(72, 187);
+            btnCalculate.Name = "btnCalculate";
+            btnCalculate.Size = new Size(98, 25);
+            btnCalculate.TabIndex = 2;
+            btnCalculate.Text = "&Calculate";
+            btnCalculate.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnExit
             // 
-            button2.Location = new Point(237, 187);
-            button2.Name = "button2";
-            button2.Size = new Size(87, 25);
-            button2.TabIndex = 5;
-            button2.Text = "button2";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
+            btnExit.Location = new Point(237, 187);
+            btnExit.Name = "btnExit";
+            btnExit.Size = new Size(87, 25);
+            btnExit.TabIndex = 3;
+            btnExit.Text = "E&xit\r\n";
+            btnExit.UseVisualStyleBackColor = true;
+            btnExit.Click += button2_Click;
             // 
             // Form1
             // 
-            AcceptButton = button1;
+            AcceptButton = btnCalculate;
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            CancelButton = button2;
+            CancelButton = btnExit;
             ClientSize = new Size(450, 336);
-            Controls.Add(button2);
-            Controls.Add(button1);
+            Controls.Add(btnExit);
+            Controls.Add(btnCalculate);
             Controls.Add(txtLetterGrade);
             Controls.Add(txtNumberGrade);
             Controls.Add(label2);
@@ -118,7 +118,7 @@
         private Label label2;
         private TextBox txtNumberGrade;
         private TextBox txtLetterGrade;
-        private Button button1;
-        private Button button2;
+        private Button btnCalculate;
+        private Button btnExit;
     }
 }
