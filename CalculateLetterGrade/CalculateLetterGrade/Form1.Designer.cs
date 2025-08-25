@@ -90,6 +90,7 @@
             // 
             // Form1
             // 
+            AcceptButton = button2;
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(581, 321);
@@ -100,7 +101,7 @@
             Controls.Add(label2);
             Controls.Add(label1);
             Name = "Form1";
-            Text = "Form1";
+            Text = "Calculate Letter Grade";
             ResumeLayout(false);
             PerformLayout();
         }
